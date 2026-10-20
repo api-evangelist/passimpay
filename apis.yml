@@ -1,0 +1,30 @@
+aid: passimpay
+name: PassimPay
+description: 'PassimPay is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://raw.githubusercontent.com/api-evangelist/passimpay/refs/heads/main/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-10-20'
+modified: '2026-10-20'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://passimpay.io
+- type: Documentation
+  url: https://passimpay.gitbook.io/passimpay-api
+x-submission-notes: B2B crypto payment gateway; payments, webhooks, withdrawals; docs on GitBook. | Kin
+  approved 2026-10-20
+x-submission-probe: root 200 (->/en, 482KB); docs 200 (478KB GitBook); docs llms.txt 200; soft-404 check
+  404 (clean). Site claims registration C100000852 and 'licensed provider with AML verification'.
+x-submitted-by: nikita.s@passimpay.io (apis.io/add, 2026-10-16)
