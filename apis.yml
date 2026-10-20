@@ -1,30 +1,103 @@
 aid: passimpay
+
 name: PassimPay
-description: 'PassimPay is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://passimpay.io/_next/static/media/url_cover2_480.84511b5b.png
+
+description: 'PassimPay provides a B2B crypto payment gateway enabling businesses to accept cryptocurrency payments across over 74 coins with no hidden fees. It offers instant conversion to EUR, automated AML checks, low‑cost USDT TRC20 fees, and fast withdrawals to cold wallets. Serving more than 530 merchants, it processes over $4 billion monthly, delivering 99.99% uptime and detailed reporting tools for sectors such as retail, real‑estate, advertising, healthcare, and renewable energy.'
+
 url: https://raw.githubusercontent.com/api-evangelist/passimpay/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:new-submission
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
 - Company
-apis: []
+- Payments
+- Crypto
+- B2B
+- Gateway
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/passimpay-llms.txt
+- type: SecurityTxt
+  url: well-known/passimpay-www-security.txt
+- type: WellKnown
+  url: well-known/passimpay-well-known.yml
+- type: Hosts
+  url: hosts/passimpay-hosts.yml
+- type: Vendors
+  url: vendors/passimpay-vendors.yml
+- type: TermsOfService
+  url: https://passimpay.io/en/terms
+- type: Support
+  url: https://passimpay.io/en/help
+- type: Security
+  url: https://passimpay.io/en/security
+- type: PrivacyPolicy
+  url: https://passimpay.io/en/privacy
+- type: Pricing
+  url: https://passimpay.io/en/pricing
+- type: Newsroom
+  url: https://passimpay.io/en/news
+- type: GitHubOrganization
+  url: https://github.com/Passimpay
+- type: ChangeLog
+  url: https://passimpay.io/en/changelog
+- type: GettingStarted
+  url: https://passimpay.io/en/help/how-can-i-connect-my-business-to-passimpay
+- type: DeveloperPortal
+  url: https://api.passimpay.io<svg
+- type: DomainSecurity
+  url: security/passimpay-domain-security.yml
 - type: Website
   url: https://passimpay.io
 - type: Documentation
   url: https://passimpay.gitbook.io/passimpay-api
+- type: APIReference
+  url: https://passimpay.gitbook.io/passimpay-api
+
+apis: []
+
 x-submission-notes: B2B crypto payment gateway; payments, webhooks, withdrawals; docs on GitBook. | Kin
   approved 2026-10-20
+
 x-submission-probe: root 200 (->/en, 482KB); docs 200 (478KB GitBook); docs llms.txt 200; soft-404 check
   404 (clean). Site claims registration C100000852 and 'licensed provider with AML verification'.
+
 x-submitted-by: nikita.s@passimpay.io (apis.io/add, 2026-10-16)
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  method: derived
+  generated: '2026-10-20'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - url: https://passimpay.io
+    status: 200
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 13
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

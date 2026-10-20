@@ -1,0 +1,16 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/passimpay/integrations
+- https://n8n.io/integrations/passimpay/
+- https://composio.dev/toolkits/passimpay
+- https://monid.ai/tools/passimpay
+checked:
+- https://composio.dev/toolkits/passimpay
+- https://monid.ai/tools/passimpay
+- https://n8n.io/integrations/passimpay/
+- https://zapier.com/apps/passimpay/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

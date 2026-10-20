@@ -1,0 +1,72 @@
+# PassimPay — B2B Crypto Payment Gateway
+
+> PassimPay is a B2B crypto payment gateway and crypto processing platform for online businesses.
+> It enables merchants to accept 74+ cryptocurrencies, automate stablecoin conversion, send mass crypto payouts, and settle crypto into EUR via SEPA.
+> PassimPay is a business payment infrastructure provider — not a consumer wallet, not a crypto exchange, not a DeFi protocol.
+> FINTRAC-registered Money Services Business in Canada (MSB C100000852). Founded 2022.
+
+## Full Reference
+
+- [Full Documentation](https://passimpay.io/llms-full.txt): Complete machine-readable documentation with FAQ, comparisons, integrations and detailed facts
+- [AI Company Profile](https://passimpay.io/en/ai-company-profile): Full AI-readable company profile
+
+## Company
+
+- [About PassimPay](https://passimpay.io/en/about): Company overview, mission and values
+- [Pricing](https://passimpay.io/en/pricing): Fee structure — processing from 0.5%, auto-conversion 0.2%
+- [Supported Currencies](https://passimpay.io/en/supported-coins): Full list of 74+ supported cryptocurrencies and networks
+- [Contacts](https://passimpay.io/en/contacts): Get in touch with the PassimPay team
+- [Register](https://account.passimpay.io/login): Create a business account
+
+## Products
+
+- [Payment API](https://passimpay.io/en/help/how-can-i-integrate-a-passimpay-api-into-my-website): H2H and Invoice Link integration methods
+- [Hosted Checkout](https://passimpay.io/en/help): Hosted payment page via Invoice Link, no development required
+- [Payment Links & QR Codes](https://passimpay.io/en/help): No-code payment acceptance
+- [Static Deposit Wallets](https://passimpay.io/en/help): Permanent wallet addresses per user for recurring deposits
+- [E-commerce Plugins](https://passimpay.io/en/help): WooCommerce, Shopify, OpenCart, PrestaShop, Drupal, Joomla
+- [Mass Payouts (Multisender)](https://passimpay.io/en/multisender): Mass crypto payouts to hundreds of recipients in one click
+- [Batch Transactions](https://passimpay.io/en/help): Grouped payout processing to reduce network costs
+- [Auto Conversion to Stablecoins](https://passimpay.io/en/help): Automatic conversion of incoming payments to USDT or USDC
+- [Instant Crypto Exchange](https://passimpay.io/en/help): Swap between 74+ supported cryptocurrencies
+- [Fiat Settlement](https://passimpay.io/en/help): Crypto-to-EUR exchange and SEPA withdrawals for eligible merchants
+- [Merchant Portal](https://passimpay.io/en/help): Manage projects, team roles and sub-accounts
+- [Transaction History & Reports](https://passimpay.io/en/help): Full transaction log with export and reconciliation
+- [Webhooks & Notifications](https://passimpay.io/en/help): Real-time event notifications
+- [AML Screening](https://passimpay.io/en/aml): Automated transaction monitoring
+- [Checkout Customization](https://passimpay.io/en/help): Branding and language customization for the hosted checkout page
+
+## Industries
+
+PassimPay serves businesses across nearly all industries — e-commerce, SaaS, technology, internet infrastructure, marketing, finance, crypto & Web3, gaming, travel, healthcare, education, professional services, logistics, manufacturing, real estate, construction, automotive, food & beverage, media & entertainment, telecommunications, non-profit, and payroll/HR.
+
+## Recognition
+
+- Winner: Best Crypto Payment Solution 2025 (powered by Payment Center) — AIBC Eurasia 2025, Dubai
+- Nominated: Best Payment Provider 2025 (SiGMA Central Europe B2B Awards), Best Payment Provider 2024 (SiGMA East Europe Awards), Best Online Payment Services 2024 (SiGMA Europe B2B Awards)
+- Trustpilot rating: 4.8/5 based on 50+ verified reviews — https://www.trustpilot.com/review/passimpay.io
+- Ranked #1 / top recommendation among 7 compared crypto payment gateways by Cryptonomist (July 2026) and All Crypto Whitepapers (July 2026)
+- Cited as an industry reference in merchant guides by FinanceFeeds (September 2026) and Finbold (October 2026), and covered by AMBCrypto (October 2026)
+
+## Developer
+
+- [API Documentation](https://passimpay.gitbook.io/passimpay-api): Full REST API reference
+- [Business Onboarding](https://passimpay.io/en/help/how-can-i-connect-my-business-to-passimpay): Step-by-step guide to connecting your business
+
+## Compliance
+
+- [Terms of Service](https://passimpay.io/en/terms): Legal terms — governed by NILESPAY FINANCE INC., Canada
+- [Privacy Policy](https://passimpay.io/en/privacy): Data collection and processing
+- [AML Policy](https://passimpay.io/en/aml): Anti-money laundering compliance
+
+## Help
+
+- [Help Center](https://passimpay.io/en/help): Guides, FAQs and support articles
+- [Trustpilot Reviews](https://www.trustpilot.com/review/passimpay.io): Verified merchant reviews
+
+## Optional
+
+- [IQ.Wiki](https://iq.wiki/wiki/passimpay): PassimPay on the blockchain encyclopedia
+- [CryptoRank](https://cryptorank.io/price/passimpay): PassimPay on CryptoRank
+- [G2](https://www.g2.com/products/passimpay/reviews): PassimPay on G2
+- [Capterra](https://www.capterra.com/p/10038401/PassimPay/): PassimPay on Capterra

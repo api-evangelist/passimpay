@@ -1,0 +1,144 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 11
+  own: 3
+  other_domain: 6
+  platform: 2
+  roles:
+  - api
+  - docs
+  - identity
+  - other
+  - portal
+  - source
+  - website
+hosts:
+- host: account.passimpay.io
+  found_by:
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  types: []
+  serves:
+  - docs
+  registrable_domain: passimpay.io
+  role: identity
+  relation: own
+- host: api.passimpay.io
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: passimpay.io
+  role: api
+  relation: own
+- host: api.passimpay.io<svg
+  found_by:
+  - pointer
+  types:
+  - DeveloperPortal
+  serves: []
+  registrable_domain: passimpay.io<svg
+  role: portal
+  relation: other-domain
+- host: cryptorank.io
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: cryptorank.io
+  role: other
+  relation: other-domain
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: iq.wiki
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: iq.wiki
+  role: other
+  relation: other-domain
+- host: passimpay.gitbook.io
+  found_by:
+  - pointer
+  - docs-index
+  - vendor-detect
+  types:
+  - Documentation
+  - APIReference
+  serves:
+  - docs
+  - documentation
+  vendor: gitbook
+  registrable_domain: gitbook.io
+  role: docs
+  relation: platform
+- host: passimpay.io
+  found_by:
+  - pointer
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - TermsOfService
+  - Support
+  - Security
+  - PrivacyPolicy
+  - Pricing
+  - Newsroom
+  - ChangeLog
+  - GettingStarted
+  - Website
+  serves:
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: passimpay.io
+  role: website
+  relation: own
+- host: www.capterra.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: capterra.com
+  role: other
+  relation: other-domain
+- host: www.g2.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: g2.com
+  role: other
+  relation: other-domain
+- host: www.trustpilot.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: trustpilot.com
+  role: other
+  relation: other-domain
