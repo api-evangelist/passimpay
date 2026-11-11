@@ -82,7 +82,6 @@ x-submission-notes: B2B crypto payment gateway; payments, webhooks, withdrawals;
 x-submission-probe: root 200 (->/en, 482KB); docs 200 (478KB GitBook); docs llms.txt 200; soft-404 check
   404 (clean). Site claims registration C100000852 and 'licensed provider with AML verification'.
 
-x-submitted-by: nikita.s@passimpay.io (apis.io/add, 2026-10-16)
 
 x-coverage:
   state: unreadable
